@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios_private_package",
+      "kind" : "remoteSourceControl",
+      "location" : "git@bitbucket.org:adurodev/ios_private_package.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6958ff42be34e4ffb08635e8944f726cae6997fb"
+      }
+    }
+  ],
+  "version" : 2
+}
