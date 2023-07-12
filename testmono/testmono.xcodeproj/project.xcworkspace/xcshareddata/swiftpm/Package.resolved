@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "ios_private_package",
+      "identity" : "sample_mono_package",
       "kind" : "remoteSourceControl",
-      "location" : "git@bitbucket.org:adurodev/ios_private_package.git",
+      "location" : "https://github.com/acumenrev/sample_mono_package",
       "state" : {
         "branch" : "master",
-        "revision" : "6958ff42be34e4ffb08635e8944f726cae6997fb"
+        "revision" : "8452417ba9f966b4ce87f8e2d8aba4c8ea099c82"
       }
     }
   ],

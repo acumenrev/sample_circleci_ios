@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B7B50372A5EA198008348B2 /* ios_private_package in Frameworks */ = {isa = PBXBuildFile; productRef = 7B7B50362A5EA198008348B2 /* ios_private_package */; };
 		7B98E1C42A4D7CD500D7C391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C32A4D7CD500D7C391 /* AppDelegate.swift */; };
 		7B98E1C62A4D7CD500D7C391 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C52A4D7CD500D7C391 /* SceneDelegate.swift */; };
 		7B98E1C82A4D7CD500D7C391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98E1C72A4D7CD500D7C391 /* ViewController.swift */; };
 		7B98E1CB2A4D7CD500D7C391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98E1C92A4D7CD500D7C391 /* Main.storyboard */; };
 		7B98E1CD2A4D7CD700D7C391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B98E1CC2A4D7CD700D7C391 /* Assets.xcassets */; };
 		7B98E1D02A4D7CD700D7C391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98E1CE2A4D7CD700D7C391 /* LaunchScreen.storyboard */; };
-		7B98E1D92A4D7E0300D7C391 /* ios_private_package in Frameworks */ = {isa = PBXBuildFile; productRef = 7B98E1D82A4D7E0300D7C391 /* ios_private_package */; };
 		7B98E1E02A4D7EC900D7C391 /* mono_package in Frameworks */ = {isa = PBXBuildFile; productRef = 7B98E1DF2A4D7EC900D7C391 /* mono_package */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B98E1E02A4D7EC900D7C391 /* mono_package in Frameworks */,
-				7B98E1D92A4D7E0300D7C391 /* ios_private_package in Frameworks */,
+				7B7B50372A5EA198008348B2 /* ios_private_package in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +106,8 @@
 			);
 			name = testmono;
 			packageProductDependencies = (
-				7B98E1D82A4D7E0300D7C391 /* ios_private_package */,
 				7B98E1DF2A4D7EC900D7C391 /* mono_package */,
+				7B7B50362A5EA198008348B2 /* ios_private_package */,
 			);
 			productName = testmono;
 			productReference = 7B98E1C02A4D7CD500D7C391 /* testmono.app */;
@@ -138,7 +138,7 @@
 			);
 			mainGroup = 7B98E1B72A4D7CD400D7C391;
 			packageReferences = (
-				7B98E1D72A4D7E0300D7C391 /* XCRemoteSwiftPackageReference "ios_private_package" */,
+				7B7B50352A5EA198008348B2 /* XCRemoteSwiftPackageReference "sample_mono_package" */,
 			);
 			productRefGroup = 7B98E1C12A4D7CD500D7C391 /* Products */;
 			projectDirPath = "";
@@ -397,9 +397,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7B98E1D72A4D7E0300D7C391 /* XCRemoteSwiftPackageReference "ios_private_package" */ = {
+		7B7B50352A5EA198008348B2 /* XCRemoteSwiftPackageReference "sample_mono_package" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@bitbucket.org:adurodev/ios_private_package.git";
+			repositoryURL = "https://github.com/acumenrev/sample_mono_package";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -408,9 +408,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7B98E1D82A4D7E0300D7C391 /* ios_private_package */ = {
+		7B7B50362A5EA198008348B2 /* ios_private_package */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7B98E1D72A4D7E0300D7C391 /* XCRemoteSwiftPackageReference "ios_private_package" */;
+			package = 7B7B50352A5EA198008348B2 /* XCRemoteSwiftPackageReference "sample_mono_package" */;
 			productName = ios_private_package;
 		};
 		7B98E1DF2A4D7EC900D7C391 /* mono_package */ = {
