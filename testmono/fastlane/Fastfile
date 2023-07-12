@@ -38,7 +38,7 @@ platform :ios do
   end
 
   desc "Test Flight Build"
-  lane :testflight do 
+  lane :make_testflight_build do 
     match(type: "appstore")
     gym(
       scheme: "testmono",

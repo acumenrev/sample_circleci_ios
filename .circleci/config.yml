@@ -6,7 +6,7 @@ jobs:
       xcode: 14.3.1
     environment:
       FL_OUTPUT_DIR: output
-      FASTLANE_LANE: testflight
+      FASTLANE_LANE: make_testflight_build
     steps:
       - checkout
       - run: cd testmono; bundle install
