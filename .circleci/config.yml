@@ -10,7 +10,6 @@ jobs:
     steps:
       - checkout
       - run: cd testmono; bundle install
-      - run: export FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD="lfzl-neqx-svuh-enpc"
       - run:
           name: Fastlane
           command: cd testmono; bundle exec fastlane $FASTLANE_LANE
